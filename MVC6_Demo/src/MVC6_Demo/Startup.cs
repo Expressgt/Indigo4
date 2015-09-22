@@ -19,7 +19,7 @@ namespace MVC6_Demo
         {
             app.Run(async (context) =>
             {
-                await context.Response.WriteAsync("Hola Mundo!");
+                await context.Response.WriteAsync("Hola Mundo!, ahora enviado desde nuevo usuario.");
             });
         }
     }
